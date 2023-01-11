@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #242424;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    /* background-image: url("AppBreweryWallpaper 1.jpg"); */
+    /* background-image: linear-gradient(115deg, rgb(119, 111, 111)); */
+
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: rgba(41, 41, 41, 0.5);
+    width: inherit;
+    height: inherit;
+    padding: 20px 80px;
+}
+
+.logo {
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.text {
+    width: 700px;
+    color: #fff;
+    font-family: 'Courier';
+    text-align: center;
+}
+
+.text p {
+    margin: 10px;
+}
+
+.text strong {
+    cursor: pointer;
+}
+
+.searchbar {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.searchbar input {
+    background-color: rgba(255, 255, 255, 0.795);
+    height: 35px;
+    width: 500px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    /* border: 1px thin black; */
+}
+
+.searchbar input:hover,
+input:focus {
+    background-color: white;
+    border: none;
+}
+
+/* .searchbar input:after {
+    border: none;
+} */
+
+.whatsapp {
+    position: absolute;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    bottom: 50px;
+    right: 40px;
+}
